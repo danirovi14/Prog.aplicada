@@ -9,17 +9,17 @@ while a == 1:
             residue = i%n
             if residue == 0:
                 conta = conta + 1
-     if conta == 2:
-       print(f'{i} Es un primo')
-       print("\n")
+    if conta == 2:
+                print(f'{i} Es un primo')
+                print("\n")
     else:
-       print(f'{i} No es un numero primo')
-       print("\n")
-       print('si quiere continuar digite presione el 1')
-       a = input()
-       a = int(a)
+               print(f'{i} No es un numero primo')
+               print("\n")
+               print('si quiere continuar digite presione el 1')
+               a = input()
+               a = int(a)
 
-     if a != 1:
+    if a != 1:
         break
 
     value = input('Ingrese un valor')
