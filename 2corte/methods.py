@@ -22,8 +22,8 @@ print("El área del círculo es:", area)
 print("El perímetro del círculo es:", perimetro)
 
 
-#cuadrado
-class Cuadrado:
+#rectangulo
+class Rectangulo:
     def __init__(self,lado1,lado2):
         self.lado1 = lado1
         self.lado2 = lado2
@@ -37,10 +37,10 @@ class Cuadrado:
         return perimetro
 
 
-cuadrado = Cuadrado(4,2)
+rectangulo = Rectangulo(4,2)
 
-area = cuadrado.area()
-perimetro = cuadrado.perimetro()
+area = rectangulo.area()
+perimetro = rectangulo.perimetro()
 
-print("El área del cuadrado es:", area)
-print("El perímetro del cuadrado es:", perimetro)
+print("El área del rectangulo es:", area)
+print("El perímetro del rectangulo es:", perimetro)
